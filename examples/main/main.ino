@@ -4,6 +4,8 @@ const float SENSITIVITY = 0.001475;  // Пример: значение, вычи
 
 void setup() {
   Serial.begin(9600);
+  sensor.setVref(3.3); // Устанавливаем актуальное Vref для логики 3.3В (например: Elbear Ace-Nano)
+  //sensor.setVref(5.0); //если требуется для плат с 5В логикой Arduino Nano/Uno, так и Elbear Ace-Nano/Uno 
   analogReadResolution(12);
   sensor.setSensitivity(SENSITIVITY);
 }
