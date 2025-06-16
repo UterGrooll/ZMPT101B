@@ -1,0 +1,5 @@
+ZMPT101B	KEYWORD1
+begin	KEYWORD2
+setVref	KEYWORD2
+setSensitivity	KEYWORD2
+readACVoltage	KEYWORD2
